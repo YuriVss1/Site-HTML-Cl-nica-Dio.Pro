@@ -1,0 +1,53 @@
+<style>
+        html, body {
+    margin: 0;
+}
+body {
+    
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: initial;
+    text-shadow:whitesmoke;
+    justify-content:;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color:wheat;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+    list-style: none;
+}
+.header {
+    background-color:white;
+    min-height: 100px;
+    
+}
+div img{
+    width: 200px;
+    padding-left: 10px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color:azure;
+    min-height: 150px;
+}
+
+    </style>
